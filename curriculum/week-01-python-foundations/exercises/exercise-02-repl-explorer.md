@@ -542,12 +542,12 @@ recover what the rounding lost.
 
 ## Acceptance checklist
 
-- [ ] You ran the whole starter session at a live `>>>` prompt.
-- [ ] You can say in one sentence each what `/`, `//`, and `%` do.
-- [ ] `python exercise-02-repl-explorer.py` prints `All checks passed.`
-- [ ] No assertion was edited to make the file pass.
-- [ ] Neither `math` nor any third-party package is imported.
-- [ ] The file is committed to Git with a message like `Add Week 1 exercise 2: REPL explorer`.
+- [x] You ran the whole starter session at a live `>>>` prompt.
+- [x] You can say in one sentence each what `/`, `//`, and `%` do.
+- [x] `python exercise-02-repl-explorer.py` prints `All checks passed.`
+- [x] No assertion was edited to make the file pass.
+- [x] Neither `math` nor any third-party package is imported.
+- [x] The file is committed to Git with a message like `Add Week 1 exercise 2: REPL explorer`.
 
 ## Stretch
 
