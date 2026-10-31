@@ -338,12 +338,12 @@ It is one of the reasons this course asks for 3.11 or newer.
 
 ## Acceptance checklist
 
-- [ ] The script runs with no traceback.
-- [ ] Three lines print, in the order the brief gives.
-- [ ] The greeting matches the spec exactly.
-- [ ] The version line comes from `sys.version_info`, not from text you typed.
-- [ ] `python -V` and the script's third line agree on the first two numbers.
-- [ ] The file is committed to Git with a message like `Add Week 1 exercise 1: hello world`.
+- [x] The script runs with no traceback.
+- [x] Three lines print, in the order the brief gives.
+- [x] The greeting matches the spec exactly.
+- [x] The version line comes from `sys.version_info`, not from text you typed.
+- [x] `python -V` and the script's third line agree on the first two numbers.
+- [x] The file is committed to Git with a message like `Add Week 1 exercise 1: hello world`.
 
 ## Stretch
 
