@@ -710,23 +710,23 @@ required here.
 
 ## Acceptance checklist
 
-- [ ] `python hello_you.py` runs with no traceback and exits on its own.
-- [ ] It prompts for a name and for an optional language.
-- [ ] The greeting contains both values, worded exactly as requirement 4
+- [x] `python hello_you.py` runs with no traceback and exits on its own.
+- [x] It prompts for a name and for an optional language.
+- [x] The greeting contains both values, worded exactly as requirement 4
       shows.
-- [ ] Whitespace-only input for either question falls back to the default.
-- [ ] Both functions carry type hints and a docstring, and no `TODO` comments
+- [x] Whitespace-only input for either question falls back to the default.
+- [x] Both functions carry type hints and a docstring, and no `TODO` comments
       are left in the file.
-- [ ] `main()` sits behind `if __name__ == "__main__":`.
-- [ ] The project is in its own `hello-you/` folder with a `.venv/` that Git
+- [x] `main()` sits behind `if __name__ == "__main__":`.
+- [x] The project is in its own `hello-you/` folder with a `.venv/` that Git
       is not tracking — proved with `git check-ignore -v .venv/pyvenv.cfg`.
-- [ ] `.gitignore` lists at least `.venv/`, `__pycache__/`, and `.DS_Store`.
-- [ ] `git status --short` prints nothing at all.
-- [ ] `git ls-files` shows no `.venv` anywhere.
-- [ ] At least three commits, each message saying what changed.
-- [ ] A user-facing `README.md` explains what the program does, how to set it
+- [x] `.gitignore` lists at least `.venv/`, `__pycache__/`, and `.DS_Store`.
+- [x] `git status --short` prints nothing at all.
+- [x] `git ls-files` shows no `.venv` anywhere.
+- [x] At least three commits, each message saying what changed.
+- [] A user-facing `README.md` explains what the program does, how to set it
       up, and how to run it.
-- [ ] The repository is on GitHub, public, and a fresh clone runs without
+- [x] The repository is on GitHub, public, and a fresh clone runs without
       asking for credentials.
 - [ ] The repository URL is in your Week 1 notes.
 

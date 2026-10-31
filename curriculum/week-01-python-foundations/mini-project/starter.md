@@ -192,22 +192,22 @@ session is the one that proves your fallbacks work.
 Tick these off against the mini-project's own checklist before you call it
 finished.
 
-- [ ] `python hello_you.py` runs with no traceback and exits on its own.
-- [ ] It prompts for a name and for an optional language.
-- [ ] The greeting contains both the name and the language, worded exactly as
+- [x] `python hello_you.py` runs with no traceback and exits on its own.
+- [x] It prompts for a name and for an optional language.
+- [x] The greeting contains both the name and the language, worded exactly as
       the spec shows.
-- [ ] Whitespace-only input for either question falls back to the default.
-- [ ] Both functions carry type hints and a docstring, and no `TODO` comments
+- [x] Whitespace-only input for either question falls back to the default.
+- [x] Both functions carry type hints and a docstring, and no `TODO` comments
       are left in the file.
-- [ ] The entry point sits inside `if __name__ == "__main__":`.
-- [ ] The project lives in its own `hello-you/` folder with a `.venv/` that
+- [x] The entry point sits inside `if __name__ == "__main__":`.
+- [x] The project lives in its own `hello-you/` folder with a `.venv/` that
       Git is not tracking.
-- [ ] `.gitignore` lists at least `.venv/`, `__pycache__/`, and `.DS_Store`.
+- [x] `.gitignore` lists at least `.venv/`, `__pycache__/`, and `.DS_Store`.
 - [ ] A user-facing `README.md` explains what the program does and how to run
       it.
 - [ ] The repository is on GitHub, public, with at least three commits that
       say what changed.
-- [ ] Committed and pushed:
+- [x] Committed and pushed:
 
       ```bash
       git add hello_you.py
