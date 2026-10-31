@@ -577,13 +577,13 @@ not `hi` followed by `None`.
 
 ## Acceptance checklist
 
-- [ ] The script runs both ways with no traceback.
-- [ ] The four printed lines are identical under `python` and `python -i`.
-- [ ] `initials(SIGNUPS)` is `"A G K D M"` with no trailing space — check it with `repr()`.
-- [ ] `longest(["Ana", "Bob", "Cyd"])` returns `"Ana"`.
-- [ ] Both functions return `""` for an empty list.
+- [x] The script runs both ways with no traceback.
+- [x] The four printed lines are identical under `python` and `python -i`.
+- [x] `initials(SIGNUPS)` is `"A G K D M"` with no trailing space — check it with `repr()`.
+- [x] `longest(["Ana", "Bob", "Cyd"])` returns `"Ana"`.
+- [x] Both functions return `""` for an empty list.
 - [ ] The three questions at the bottom are answered in comments.
-- [ ] The file is committed to Git with a message like `Add Week 1 exercise 3: script vs REPL`.
+- [x] The file is committed to Git with a message like `Add Week 1 exercise 3: script vs REPL`.
 
 ## Stretch
 
