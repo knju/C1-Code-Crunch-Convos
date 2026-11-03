@@ -461,20 +461,20 @@ without touching the command line at all. This is the same instinct as
 
 ## Acceptance checklist
 
-- [ ] `python banner.py` prints the seventeen-wide `Ada` box, exactly as in
+- [x] `python banner.py` prints the seventeen-wide `Ada` box, exactly as in
       *Expected output*.
-- [ ] `python banner.py Grace Hopper` prints a twenty-six-wide box.
-- [ ] `python banner.py "  Ada  "` prints the seventeen-wide box, not a
+- [x] `python banner.py Grace Hopper` prints a twenty-six-wide box.
+- [x] `python banner.py "  Ada  "` prints the seventeen-wide box, not a
       twenty-one-wide one.
-- [ ] Every top and bottom rule is exactly as long as the rows between them.
-- [ ] `build_banner` contains no `print` call.
-- [ ] `str.center()` appears in the file, and no hand-counted run of spaces
+- [x] Every top and bottom rule is exactly as long as the rows between them.
+- [x] `build_banner` contains no `print` call.
+- [x] `str.center()` appears in the file, and no hand-counted run of spaces
       does.
-- [ ] Every function has type hints on its parameters and its return, and a
+- [x] Every function has type hints on its parameters and its return, and a
       docstring.
-- [ ] The file ends with the `if __name__ == "__main__":` guard.
-- [ ] Four-space indentation, `snake_case` names, lines under 80 characters.
-- [ ] Committed with a clear message such as
+- [x] The file ends with the `if __name__ == "__main__":` guard.
+- [x] Four-space indentation, `snake_case` names, lines under 80 characters.
+- [x] Committed with a clear message such as
       `Add Challenge 1: personalized ASCII banner`.
 
 ## Stretch
