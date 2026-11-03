@@ -2,7 +2,7 @@
 
 import sys
 
-TASK_COUNT: int = 3
+TASK_COUNT: int = 7
 
 
 def ask(prompt: str) -> str:
